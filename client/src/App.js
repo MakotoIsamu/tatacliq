@@ -8,6 +8,7 @@ import CategoryProducts from './pages/CategoryProducts'
 import CartProvider from './context/CartContext'; // Default import
 import { AuthProvider } from './context/AuthContext';
 import CartPage from './pages/CartPage'
+import CheckoutPage from './pages/CheckoutPage';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path='/products' element={<ProductPage/>}/>
           <Route path='/cart' element={<CartPage/>} />
+          <Route path='/checkout' element={<CheckoutPage/>} />
           <Route path='/category/:categoryName' element={<CategoryProducts/>}/>
         </Routes>
       </Router>

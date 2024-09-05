@@ -1,14 +1,15 @@
-// src/pages/CategoryProducts.js
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import { useParams } from 'react-router-dom';
 import { ShoppingCart } from 'lucide-react'; 
+import { useCart } from '../context/CartContext'; // Import useCart
 
 const CategoryProducts = () => {
   const { categoryName } = useParams();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { addToCart } = useCart(); // Destructure addToCart from useCart
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -31,16 +32,24 @@ const CategoryProducts = () => {
     fetchProducts();
   }, [categoryName]);
 
+  const handleAddToCart = (product) => {
+    addToCart(product);
+  };
+
   if (loading) {
-    return <div className="flex justify-center items-center h-screen">
-      <p className="text-xl font-semibold">Loading products...</p>
-    </div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <p className="text-xl font-semibold">Loading products...</p>
+      </div>
+    );
   }
 
   if (error) {
-    return <div className="flex justify-center items-center h-screen">
-      <p className="text-xl font-semibold text-red-500">Error: {error}</p>
-    </div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <p className="text-xl font-semibold text-red-500">Error: {error}</p>
+      </div>
+    );
   }
 
   return (
@@ -61,6 +70,7 @@ const CategoryProducts = () => {
                   <p className="text-lg font-bold text-gray-800 mb-2">₹{product.price}</p>
                   <p className="text-sm text-gray-500 mb-4">Stock: {product.stock}</p>
                   <button 
+                    onClick={() => handleAddToCart(product)} // Add click handler
                     className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-300 flex items-center justify-center"
                   >
                     <ShoppingCart className="mr-2" size={20} />
