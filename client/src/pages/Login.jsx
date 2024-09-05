@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link , useNavigate} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
   const [email, setEmail] = useState('')
@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault()
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('https://tatacliq-phi.vercel.app/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -35,13 +35,13 @@ const Login = () => {
   return (
     <div className='bg-gray-950 flex justify-center items-center h-screen w-screen'>
       <form className='flex flex-col gap-2' onSubmit={handleSubmit}>
-        {error && <p className='text-red-800 bg-red-400 px-3 py-2'>{error}</p>}
+        {error && <p className='text-red-800 bg-red-400 p-2'>{error}</p>}
         <input 
           type="email" 
           value={email} 
           name='email' 
           placeholder='Enter email..' 
-          className='px-3 py-2 outline-none' 
+          className='input-field' 
           onChange={(e) => setEmail(e.target.value)} 
         />
         <input 
@@ -49,11 +49,14 @@ const Login = () => {
           value={password} 
           name="password" 
           placeholder='Enter password..' 
-          className='px-3 py-2 outline-none' 
+          className='input-field' 
           onChange={(e) => setPassword(e.target.value)} 
         />
-        <div className='flex justify-between items-center px-3 py-2 bg-white text-black gap-3'><Link to='/signup'>Signup</Link><p>Forgot password</p></div>
-        <button type='submit' className='px-3 py-2 bg-white text-black border-white'>Login</button>
+        <div className='flex justify-between items-center p-2 bg-white text-black gap-3'>
+          <Link to='/signup'>Signup</Link>
+          <p>Forgot password</p>
+        </div>
+        <button type='submit' className='p-2 bg-white text-black border-white'>Login</button>
       </form>
     </div>
   )
