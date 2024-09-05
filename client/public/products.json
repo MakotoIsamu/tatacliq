@@ -1,0 +1,882 @@
+[
+  {
+    "name": "Classic Denim Jacket",
+    "description": "A stylish and versatile denim jacket for all seasons.",
+    "category": "Westside",
+    "price": 1499,
+    "image": "/images/1.jpeg",
+    "stock": 50
+  },
+  {
+    "name": "Casual Cotton Shirt",
+    "description": "A comfortable and breathable cotton shirt.",
+    "category": "Westside",
+    "price": 799,
+    "image": "/images/2.jpeg",
+    "stock": 100
+  },
+  {
+    "name": "Printed Summer Dress",
+    "description": "Lightweight dress perfect for summer outings.",
+    "category": "Westside",
+    "price": 1299,
+    "image": "/images/3.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Men's Slim Fit Jeans",
+    "description": "Slim-fit jeans made with stretchable denim.",
+    "category": "Westside",
+    "price": 1999,
+    "image": "/images/4.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Flannel Check Shirt",
+    "description": "Warm flannel shirt with a checkered pattern.",
+    "category": "Westside",
+    "price": 999,
+    "image": "/images/5.jpeg",
+    "stock": 60
+  },
+  {
+    "name": "Cotton Polo T-Shirt",
+    "description": "Classic polo T-shirt for a casual look.",
+    "category": "Westside",
+    "price": 599,
+    "image": "/images/6.jpeg",
+    "stock": 120
+  },
+  {
+    "name": "Sports Sneakers",
+    "description": "Comfortable sneakers for daily wear.",
+    "category": "Westside",
+    "price": 1299,
+    "image": "/images/7.jpeg",
+    "stock": 40
+  },
+  {
+    "name": "Denim Shorts",
+    "description": "Casual denim shorts for men.",
+    "category": "Westside",
+    "price": 899,
+    "image": "/images/8.jpeg",
+    "stock": 70
+  },
+  {
+    "name": "Chiffon Scarf",
+    "description": "Lightweight and colorful chiffon scarf.",
+    "category": "Westside",
+    "price": 299,
+    "image": "/images/9.jpeg",
+    "stock": 150
+  },
+  {
+    "name": "Basic White Tee",
+    "description": "Classic white t-shirt for everyday wear.",
+    "category": "Westside",
+    "price": 399,
+    "image": "/images/10.jpeg",
+    "stock": 200
+  },
+  {
+    "name": "Floral Print Maxi Dress",
+    "description": "A beautiful maxi dress with floral prints, perfect for summer.",
+    "category": "WomensWear",
+    "price": 1999,
+    "image": "/images/11.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Knit Sweater",
+    "description": "Cozy knit sweater for the cold season.",
+    "category": "WomensWear",
+    "price": 1299,
+    "image": "/images/12.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Silk Blouse",
+    "description": "Elegant silk blouse for formal occasions.",
+    "category": "WomensWear",
+    "price": 2499,
+    "image": "/images/13.jpg",
+    "stock": 25
+  },
+  {
+    "name": "High-Waist Jeans",
+    "description": "Trendy high-waist jeans for a stylish look.",
+    "category": "WomensWear",
+    "price": 1499,
+    "image": "/images/14.jpeg",
+    "stock": 55
+  },
+  {
+    "name": "Casual Cotton Kurti",
+    "description": "Comfortable cotton kurti for daily wear.",
+    "category": "WomensWear",
+    "price": 899,
+    "image": "/images/15.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Ankle-Length Leggings",
+    "description": "Stretchable and soft leggings for comfort.",
+    "category": "WomensWear",
+    "price": 499,
+    "image": "/images/16.jpg",
+    "stock": 100
+  },
+  {
+    "name": "Formal Blazer",
+    "description": "Classic blazer for a professional look.",
+    "category": "WomensWear",
+    "price": 2999,
+    "image": "/images/17.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Pleated Midi Skirt",
+    "description": "Flowy midi skirt with pleats.",
+    "category": "WomensWear",
+    "price": 1499,
+    "image": "/images/18.jpeg",
+    "stock": 35
+  },
+  {
+    "name": "Off-Shoulder Top",
+    "description": "Trendy off-shoulder top with ruffle detail.",
+    "category": "WomensWear",
+    "price": 799,
+    "image": "/images/19.jpg",
+    "stock": 90
+  },
+  {
+    "name": "Bohemian Maxi Dress",
+    "description": "Maxi dress with bohemian prints.",
+    "category": "WomensWear",
+    "price": 1799,
+    "image": "/images/20.jpg",
+    "stock": 45
+  },
+  {
+    "name": "Formal Suit",
+    "description": "A sharp and stylish formal suit for business and events.",
+    "category": "MensWear",
+    "price": 3999,
+    "image": "/images/21.jpeg",
+    "stock": 20
+  },
+  {
+    "name": "Casual T-shirt",
+    "description": "Soft cotton T-shirt for everyday wear.",
+    "category": "MensWear",
+    "price": 499,
+    "image": "/images/22.jpeg",
+    "stock": 150
+  },
+  {
+    "name": "Slim Fit Trousers",
+    "description": "Chic slim-fit trousers for office wear.",
+    "category": "MensWear",
+    "price": 1999,
+    "image": "/images/23.jpeg",
+    "stock": 40
+  },
+  {
+    "name": "Leather Jacket",
+    "description": "A stylish leather jacket for a rugged look.",
+    "category": "MensWear",
+    "price": 3499,
+    "image": "/images/24.jpeg",
+    "stock": 15
+  },
+  {
+    "name": "Cotton V-Neck Sweater",
+    "description": "Warm cotton sweater with V-neck design.",
+    "category": "MensWear",
+    "price": 899,
+    "image": "/images/25.jpg",
+    "stock": 60
+  },
+  {
+    "name": "Checkered Dress Shirt",
+    "description": "Elegant checkered dress shirt for formal wear.",
+    "category": "MensWear",
+    "price": 1299,
+    "image": "/images/26.jpg",
+    "stock": 55
+  },
+  {
+    "name": "Bomber Jacket",
+    "description": "Trendy bomber jacket with a modern fit.",
+    "category": "MensWear",
+    "price": 2799,
+    "image": "/images/27.jpeg",
+    "stock": 35
+  },
+  {
+    "name": "Cuffed Joggers",
+    "description": "Comfortable cuffed joggers for daily wear.",
+    "category": "MensWear",
+    "price": 999,
+    "image": "/images/28.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Graphic Hoodie",
+    "description": "Cozy hoodie with graphic prints.",
+    "category": "MensWear",
+    "price": 1199,
+    "image": "/images/29.jpeg",
+    "stock": 100
+  },
+  {
+    "name": "Classic Polo Shirt",
+    "description": "Timeless polo shirt in a variety of colors.",
+    "category": "MensWear",
+    "price": 799,
+    "image": "/images/30.jpeg",
+    "stock": 90
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes for all terrains.",
+    "category": "Footwear",
+    "price": 2499,
+    "image": "/images/31.jpeg",
+    "stock": 60
+  },
+  {
+    "name": "Leather Loafers",
+    "description": "Elegant leather loafers for formal occasions.",
+    "category": "Footwear",
+    "price": 1999,
+    "image": "/images/32.jpeg",
+    "stock": 40
+  },
+  {
+    "name": "Flip Flops",
+    "description": "Comfortable flip flops for everyday wear.",
+    "category": "Footwear",
+    "price": 299,
+    "image": "/images/33.jpeg",
+    "stock": 100
+  },
+  {
+    "name": "Ankle Boots",
+    "description": "Stylish ankle boots with a modern design.",
+    "category": "Footwear",
+    "price": 3299,
+    "image": "/images/34.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Canvas Sneakers",
+    "description": "Casual canvas sneakers in various colors.",
+    "category": "Footwear",
+    "price": 1499,
+    "image": "/images/35.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "High-Heel Sandals",
+    "description": "Chic high-heel sandals for special occasions.",
+    "category": "Footwear",
+    "price": 1799,
+    "image": "/images/36.jpeg",
+    "stock": 25
+  },
+  {
+    "name": "Athletic Trainers",
+    "description": "Supportive trainers for gym and workouts.",
+    "category": "Footwear",
+    "price": 2799,
+    "image": "/images/37.jpg",
+    "stock": 50
+  },
+  {
+    "name": "Ballet Flats",
+    "description": "Comfortable ballet flats for everyday use.",
+    "category": "Footwear",
+    "price": 899,
+    "image": "/images/38.jpeg",
+    "stock": 70
+  },
+  {
+    "name": "Moccasins",
+    "description": "Classic moccasins with soft leather.",
+    "category": "Footwear",
+    "price": 1299,
+    "image": "/images/39.jpeg",
+    "stock": 45
+  },
+  {
+    "name": "Hiking Boots",
+    "description": "Durable hiking boots for outdoor adventures.",
+    "category": "Footwear",
+    "price": 3499,
+    "image": "/images/40.jpeg",
+    "stock": 20
+  },
+  {
+    "name": "Matte Lipstick",
+    "description": "Long-lasting matte lipstick available in multiple shades.",
+    "category": "Beauty",
+    "price": 499,
+    "image": "/images/41.jpg",
+    "stock": 150
+  },
+  {
+    "name": "Hydrating Face Cream",
+    "description": "Moisturizing face cream for all skin types.",
+    "category": "Beauty",
+    "price": 899,
+    "image": "/images/42.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Volumizing Mascara",
+    "description": "Mascara that adds volume and length to lashes.",
+    "category": "Beauty",
+    "price": 699,
+    "image": "/images/43.jpeg",
+    "stock": 60
+  },
+  {
+    "name": "Nail Polish Set",
+    "description": "Set of vibrant nail polishes in multiple colors.",
+    "category": "Beauty",
+    "price": 299,
+    "image": "/images/44.jpeg",
+    "stock": 100
+  },
+  {
+    "name": "Fragrance Mist",
+    "description": "Refreshing fragrance mist for a light scent.",
+    "category": "Beauty",
+    "price": 999,
+    "image": "/images/45.jpeg",
+    "stock": 50
+  },
+  {
+    "name": "BB Cream",
+    "description": "All-in-one BB cream for light coverage and hydration.",
+    "category": "Beauty",
+    "price": 799,
+    "image": "/images/46.jpeg",
+    "stock": 90
+  },
+  {
+    "name": "Eye Shadow Palette",
+    "description": "Palette with multiple shades for various looks.",
+    "category": "Beauty",
+    "price": 1199,
+    "image": "/images/47.jpeg",
+    "stock": 40
+  },
+  {
+    "name": "Charcoal Face Mask",
+    "description": "Detoxifying face mask with activated charcoal.",
+    "category": "Beauty",
+    "price": 299,
+    "image": "/images/48.jpeg",
+    "stock": 110
+  },
+  {
+    "name": "Anti-Aging Serum",
+    "description": "Serum that reduces signs of aging and fine lines.",
+    "category": "Beauty",
+    "price": 1499,
+    "image": "/images/49.jpeg",
+    "stock": 35
+  },
+  {
+    "name": "Hair Conditioner",
+    "description": "Nourishing conditioner for smooth and shiny hair.",
+    "category": "Beauty",
+    "price": 599,
+    "image": "/images/50.jpeg",
+    "stock": 75
+  },
+  {
+    "name": "Analog Watch",
+    "description": "Classic analog watch with leather strap.",
+    "category": "Watches",
+    "price": 2999,
+    "image": "/images/51.jpeg",
+    "stock": 40
+  },
+  {
+    "name": "Digital Sports Watch",
+    "description": "Water-resistant digital watch with multiple functions.",
+    "category": "Watches",
+    "price": 1499,
+    "image": "/images/52.jpg",
+    "stock": 60
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Smartwatch with fitness tracking and notifications.",
+    "category": "Watches",
+    "price": 4999,
+    "image": "/images/53.jpg",
+    "stock": 30
+  },
+  {
+    "name": "Luxury Gold Watch",
+    "description": "Elegant gold watch with a stainless steel band.",
+    "category": "Watches",
+    "price": 8999,
+    "image": "/images/54.jpeg",
+    "stock": 15
+  },
+  {
+    "name": "Chronograph Watch",
+    "description": "Sporty chronograph watch with multiple dials.",
+    "category": "Watches",
+    "price": 3499,
+    "image": "/images/55.jpg",
+    "stock": 50
+  },
+  {
+    "name": "Leather Band Watch",
+    "description": "Watch with genuine leather band for a classic look.",
+    "category": "Watches",
+    "price": 2499,
+    "image": "/images/56.jpeg",
+    "stock": 45
+  },
+  {
+    "name": "Fitness Tracker Watch",
+    "description": "Fitness tracker watch with heart rate monitor.",
+    "category": "Watches",
+    "price": 1999,
+    "image": "/images/57.jpeg",
+    "stock": 70
+  },
+  {
+    "name": "Diamond Studded Watch",
+    "description": "Luxurious watch with diamond accents.",
+    "category": "Watches",
+    "price": 15999,
+    "image": "/images/58.jpg",
+    "stock": 10
+  },
+  {
+    "name": "Minimalist Watch",
+    "description": "Sleek minimalist watch with a simple design.",
+    "category": "Watches",
+    "price": 1299,
+    "image": "/images/59.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Military Watch",
+    "description": "Durable watch with tactical features.",
+    "category": "Watches",
+    "price": 3999,
+    "image": "/images/60.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Toy Car",
+    "description": "Battery-operated toy car with remote control.",
+    "category": "Kids",
+    "price": 599,
+    "image": "/images/61.jpeg",
+    "stock": 70
+  },
+  {
+    "name": "Stuffed Animal",
+    "description": "Soft and cuddly stuffed animal toy for kids.",
+    "category": "Kids",
+    "price": 299,
+    "image": "/images/62.jpeg",
+    "stock": 100
+  },
+  {
+    "name": "Building Blocks Set",
+    "description": "Colorful building blocks for creative play.",
+    "category": "Kids",
+    "price": 699,
+    "image": "/images/63.jpeg",
+    "stock": 60
+  },
+  {
+    "name": "Puzzle Game",
+    "description": "Challenging puzzle game to enhance cognitive skills.",
+    "category": "Kids",
+    "price": 399,
+    "image": "/images/64.jpg",
+    "stock": 80
+  },
+  {
+    "name": "Kids Bicycle",
+    "description": "Lightweight bicycle for kids aged 4-7.",
+    "category": "Kids",
+    "price": 2499,
+    "image": "/images/65.jpeg",
+    "stock": 20
+  },
+  {
+    "name": "Action Figure Set",
+    "description": "Set of action figures from popular cartoons.",
+    "category": "Kids",
+    "price": 899,
+    "image": "/images/66.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Coloring Book",
+    "description": "Coloring book with various themes and stickers.",
+    "category": "Kids",
+    "price": 199,
+    "image": "/images/67.jpeg",
+    "stock": 120
+  },
+  {
+    "name": "Kids Backpack",
+    "description": "Durable backpack with cartoon prints.",
+    "category": "Kids",
+    "price": 499,
+    "image": "/images/68.jpg",
+    "stock": 50
+  },
+  {
+    "name": "Kids Play Tent",
+    "description": "Indoor play tent for imaginative fun.",
+    "category": "Kids",
+    "price": 999,
+    "image": "/images/69.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Educational Tablet",
+    "description": "Interactive tablet designed for kids' learning.",
+    "category": "Kids",
+    "price": 2999,
+    "image": "/images/70.jpeg",
+    "stock": 25
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with high-quality sound.",
+    "category": "Gadgets",
+    "price": 1499,
+    "image": "/images/71.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Wireless Earbuds",
+    "description": "Noise-cancelling wireless earbuds with charging case.",
+    "category": "Gadgets",
+    "price": 2999,
+    "image": "/images/72.jpg",
+    "stock": 60
+  },
+  {
+    "name": "Smart Home Hub",
+    "description": "Smart home hub for controlling IoT devices.",
+    "category": "Gadgets",
+    "price": 4999,
+    "image": "/images/73.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Portable Charger",
+    "description": "High-capacity portable charger for mobile devices.",
+    "category": "Gadgets",
+    "price": 999,
+    "image": "/images/74.jpg",
+    "stock": 80
+  },
+  {
+    "name": "VR Headset",
+    "description": "Virtual reality headset for immersive experiences.",
+    "category": "Gadgets",
+    "price": 5999,
+    "image": "/images/75.jpeg",
+    "stock": 15
+  },
+  {
+    "name": "Smartwatch",
+    "description": "Smartwatch with health tracking and notifications.",
+    "category": "Gadgets",
+    "price": 3499,
+    "image": "/images/76.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Drone Camera",
+    "description": "Quadcopter drone with HD camera and remote control.",
+    "category": "Gadgets",
+    "price": 8999,
+    "image": "/images/77.jpeg",
+    "stock": 10
+  },
+  {
+    "name": "E-Reader",
+    "description": "Compact e-reader with adjustable brightness.",
+    "category": "Gadgets",
+    "price": 4499,
+    "image": "/images/78.jpg",
+    "stock": 25
+  },
+  {
+    "name": "Wireless Keyboard",
+    "description": "Slim and ergonomic wireless keyboard with Bluetooth.",
+    "category": "Gadgets",
+    "price": 1299,
+    "image": "/images/79.jpg",
+    "stock": 50
+  },
+  {
+    "name": "Action Camera",
+    "description": "Waterproof action camera with wide-angle lens.",
+    "category": "Gadgets",
+    "price": 2999,
+    "image": "/images/80.jpg",
+    "stock": 35
+  },
+  {
+    "name": "Wooden Dining Table",
+    "description": "Solid wood dining table with six chairs.",
+    "category": "HomeFurniture",
+    "price": 15999,
+    "image": "/images/81.jpeg",
+    "stock": 10
+  },
+  {
+    "name": "Recliner Sofa",
+    "description": "Comfortable recliner sofa with plush cushions.",
+    "category": "HomeFurniture",
+    "price": 18999,
+    "image": "/images/82.jpeg",
+    "stock": 5
+  },
+  {
+    "name": "Bookshelf",
+    "description": "Modern bookshelf with multiple compartments.",
+    "category": "HomeFurniture",
+    "price": 4999,
+    "image": "/images/83.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Coffee Table",
+    "description": "Stylish coffee table with glass top.",
+    "category": "HomeFurniture",
+    "price": 2999,
+    "image": "/images/84.jpg",
+    "stock": 25
+  },
+  {
+    "name": "Office Chair",
+    "description": "Ergonomic office chair with lumbar support.",
+    "category": "HomeFurniture",
+    "price": 3499,
+    "image": "/images/85.jpeg",
+    "stock": 30
+  },
+  {
+    "name": "Queen Bed Frame",
+    "description": "Sturdy queen-sized bed frame with headboard.",
+    "category": "HomeFurniture",
+    "price": 11999,
+    "image": "/images/86.jpeg",
+    "stock": 8
+  },
+  {
+    "name": "Floor Lamp",
+    "description": "Adjustable floor lamp with LED light.",
+    "category": "HomeFurniture",
+    "price": 1499,
+    "image": "/images/87.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Wardrobe Closet",
+    "description": "Spacious wardrobe closet with sliding doors.",
+    "category": "HomeFurniture",
+    "price": 9999,
+    "image": "/images/88.jpeg",
+    "stock": 12
+  },
+  {
+    "name": "Dining Chair Set",
+    "description": "Set of four upholstered dining chairs.",
+    "category": "HomeFurniture",
+    "price": 4999,
+    "image": "/images/89.jpeg",
+    "stock": 15
+  },
+  {
+    "name": "TV Stand",
+    "description": "Compact TV stand with storage shelves.",
+    "category": "HomeFurniture",
+    "price": 2599,
+    "image": "/images/90.jpg",
+    "stock": 18
+  },
+  {
+    "name": "Leather Handbag",
+    "description": "Elegant leather handbag with multiple compartments.",
+    "category": "Bags",
+    "price": 2499,
+    "image": "/images/91.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Backpack",
+    "description": "Durable backpack for everyday use with laptop sleeve.",
+    "category": "Bags",
+    "price": 1499,
+    "image": "/images/92.jpg",
+    "stock": 60
+  },
+  {
+    "name": "Tote Bag",
+    "description": "Stylish tote bag with printed design.",
+    "category": "Bags",
+    "price": 999,
+    "image": "/images/93.jpg",
+    "stock": 30
+  },
+  {
+    "name": "Messenger Bag",
+    "description": "Compact messenger bag with adjustable strap.",
+    "category": "Bags",
+    "price": 1799,
+    "image": "/images/94.jpeg",
+    "stock": 50
+  },
+  {
+    "name": "Duffel Bag",
+    "description": "Spacious duffel bag for travel and gym.",
+    "category": "Bags",
+    "price": 1999,
+    "image": "/images/95.jpg",
+    "stock": 25
+  },
+  {
+    "name": "Clutch Purse",
+    "description": "Chic clutch purse for evening outings.",
+    "category": "Bags",
+    "price": 799,
+    "image": "/images/96.jpg",
+    "stock": 70
+  },
+  {
+    "name": "Sling Bag",
+    "description": "Trendy sling bag with adjustable shoulder strap.",
+    "category": "Bags",
+    "price": 1299,
+    "image": "/images/97.jpg",
+    "stock": 35
+  },
+  {
+    "name": "Laptop Bag",
+    "description": "Protective laptop bag with extra storage space.",
+    "category": "Bags",
+    "price": 1599,
+    "image": "/images/98.jpg",
+    "stock": 45
+  },
+  {
+    "name": "Waist Bag",
+    "description": "Compact waist bag for hands-free carrying.",
+    "category": "Bags",
+    "price": 699,
+    "image": "/images/99.jpeg",
+    "stock": 80
+  },
+  {
+    "name": "Travel Backpack",
+    "description": "Lightweight travel backpack with multiple pockets.",
+    "category": "Bags",
+    "price": 2399,
+    "image": "/images/100.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Gold Necklace",
+    "description": "18k gold necklace with intricate design.",
+    "category": "Jewellery",
+    "price": 4999,
+    "image": "/images/101.jpeg",
+    "stock": 15
+  },
+  {
+    "name": "Silver Bracelet",
+    "description": "Sterling silver bracelet with cubic zirconia stones.",
+    "category": "Jewellery",
+    "price": 2999,
+    "image": "/images/102.webp",
+    "stock": 25
+  },
+  {
+    "name": "Diamond Earrings",
+    "description": "Elegant diamond earrings in a classic setting.",
+    "category": "Jewellery",
+    "price": 7999,
+    "image": "/images/103.jpg",
+    "stock": 10
+  },
+  {
+    "name": "Pearl Necklace",
+    "description": "Classic pearl necklace with matching earrings.",
+    "category": "Jewellery",
+    "price": 5999,
+    "image": "/images/104.jpg",
+    "stock": 18
+  },
+  {
+    "name": "Gold Ring",
+    "description": "14k gold ring with solitaire diamond.",
+    "category": "Jewellery",
+    "price": 8999,
+    "image": "/images/105.jpg",
+    "stock": 12
+  },
+  {
+    "name": "Charm Anklet",
+    "description": "Delicate anklet with multiple charms.",
+    "category": "Jewellery",
+    "price": 999,
+    "image": "/images/106.jpeg",
+    "stock": 35
+  },
+  {
+    "name": "Crystal Brooch",
+    "description": "Sparkling crystal brooch for special occasions.",
+    "category": "Jewellery",
+    "price": 1499,
+    "image": "/images/107.jpg",
+    "stock": 40
+  },
+  {
+    "name": "Gemstone Pendant",
+    "description": "Pendant with a vibrant gemstone in a gold setting.",
+    "category": "Jewellery",
+    "price": 4499,
+    "image": "/images/108.jpg",
+    "stock": 22
+  },
+  {
+    "name": "Stud Earrings",
+    "description": "Minimalist stud earrings in various metals.",
+    "category": "Jewellery",
+    "price": 599,
+    "image": "/images/109.jpg",
+    "stock": 55
+  },
+  {
+    "name": "Beaded Necklace",
+    "description": "Handmade beaded necklace with colorful beads.",
+    "category": "Jewellery",
+    "price": 1199,
+    "image": "/images/110.jpg",
+    "stock": 30
+  }
+]

@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+
+# Build files
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
