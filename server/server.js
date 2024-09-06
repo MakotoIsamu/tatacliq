@@ -11,15 +11,20 @@ require('dotenv').config();
 
 const app = express();
 
+// CORS configuration
+const corsOptions = {
+    origin: 'https://tatacliq-hpc7.vercel.app', // Your frontend URL
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+    preflightContinue: false,
+    optionsSuccessStatus: 204
+};
+
 // Middlewares
 app.use(helmet());
 app.use(morgan('combined'));
-app.use(cors({
-    origin: 'https://tatacliq-hpc7.vercel.app', // Your frontend URL
-    methods: ['GET', 'POST', 'OPTIONS'], // Add OPTIONS to allowed methods
-    credentials: true,
-    allowedHeaders: ['Content-Type', 'Authorization'] // Specify allowed headers
-}));
+app.use(cors(corsOptions)); // Apply CORS middleware before routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/assets', express.static('assets'));
@@ -36,7 +41,7 @@ app.use(session({
         maxAge: 14 * 24 * 60 * 60 * 1000, 
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
-        sameSite: 'none' // Important for cross-site cookies
+        sameSite: 'none'
     }
 }));
 
@@ -52,8 +57,17 @@ mongoose.connect(process.env.MONGO_URI, {
     console.error('Error connecting to MongoDB', err);
 });
 
-// CORS Preflight
-app.options('*', cors()); // Enable preflight for all routes
+// Apply CORS to all routes
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', 'https://tatacliq-hpc7.vercel.app');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.header('Access-Control-Allow-Credentials', true);
+    if (req.method === 'OPTIONS') {
+        return res.sendStatus(204);
+    }
+    next();
+});
 
 // Routes
 app.use('/api/auth', AuthRoutes);
