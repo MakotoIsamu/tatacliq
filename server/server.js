@@ -15,9 +15,9 @@ const app = express();
 app.use(helmet()); // Adds security headers
 app.use(morgan('combined')); // Logging
 app.use(cors({
-    origin: 'https://tatacliq-hpc7.vercel.app',
-    methods: 'GET,POST',
-    credentials: true
+    origin: 'https://tatacliq-hpc7.vercel.app', // Your frontend URL
+    methods: ['GET', 'POST'],
+    credentials: true // Allow credentials to be sent in cross-origin requests
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

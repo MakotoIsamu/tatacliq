@@ -13,7 +13,6 @@ const Login = () => {
     try {
       const response = await fetch('https://tatacliq-phi.vercel.app/api/auth/login', {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },

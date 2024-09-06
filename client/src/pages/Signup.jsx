@@ -14,7 +14,6 @@ const Signup = () => {
     try {
       const response = await fetch('https://tatacliq-phi.vercel.app/api/auth/signup', {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
