@@ -5,19 +5,20 @@ const MongoStore = require('connect-mongo');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const AuthRoutes = require('./routes/AuthRoutes');
-const helmet = require('helmet'); // For security headers
-const morgan = require('morgan'); // For logging
-require('dotenv').config(); // Load environment variables
+const helmet = require('helmet');
+const morgan = require('morgan');
+require('dotenv').config();
 
 const app = express();
 
 // Middlewares
-app.use(helmet()); // Adds security headers
-app.use(morgan('combined')); // Logging
+app.use(helmet());
+app.use(morgan('combined'));
 app.use(cors({
     origin: 'https://tatacliq-hpc7.vercel.app', // Your frontend URL
-    methods: ['GET', 'POST'],
-    credentials: true // Allow credentials to be sent in cross-origin requests
+    methods: ['GET', 'POST', 'OPTIONS'], // Add OPTIONS to allowed methods
+    credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'] // Specify allowed headers
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -34,7 +35,8 @@ app.use(session({
     cookie: { 
         maxAge: 14 * 24 * 60 * 60 * 1000, 
         httpOnly: true,
-        secure: process.env.NODE_ENV === 'production' // Set to true if using HTTPS
+        secure: process.env.NODE_ENV === 'production',
+        sameSite: 'none' // Important for cross-site cookies
     }
 }));
 
@@ -49,6 +51,9 @@ mongoose.connect(process.env.MONGO_URI, {
 .catch(err => {
     console.error('Error connecting to MongoDB', err);
 });
+
+// CORS Preflight
+app.options('*', cors()); // Enable preflight for all routes
 
 // Routes
 app.use('/api/auth', AuthRoutes);
